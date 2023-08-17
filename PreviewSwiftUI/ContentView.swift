@@ -9,18 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(superHero) { hero in
+            ListRow(city: hero)
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .previewDevice("iPhone 11")
+                .previewDisplayName("iPhone 11")
+            ContentView()
+                .previewDevice("iPhone 14 Pro")
+                .previewDisplayName("iPhne 14 Pro")
+        }
     }
 }

@@ -11,6 +11,8 @@
 		ECB00E162A8E7D3D00313D1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB00E152A8E7D3D00313D1D /* ContentView.swift */; };
 		ECB00E182A8E7D3E00313D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB00E172A8E7D3E00313D1D /* Assets.xcassets */; };
 		ECB00E1B2A8E7D3E00313D1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB00E1A2A8E7D3E00313D1D /* Preview Assets.xcassets */; };
+		ECB00E222A8E81EA00313D1D /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB00E212A8E81EA00313D1D /* ListRow.swift */; };
+		ECB00E242A8E8E1600313D1D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB00E232A8E8E1600313D1D /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ECB00E152A8E7D3D00313D1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECB00E172A8E7D3E00313D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB00E1A2A8E7D3E00313D1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB00E212A8E81EA00313D1D /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		ECB00E232A8E8E1600313D1D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				ECB00E132A8E7D3D00313D1D /* PreviewSwiftUIApp.swift */,
+				ECB00E212A8E81EA00313D1D /* ListRow.swift */,
 				ECB00E152A8E7D3D00313D1D /* ContentView.swift */,
+				ECB00E232A8E8E1600313D1D /* City.swift */,
 				ECB00E172A8E7D3E00313D1D /* Assets.xcassets */,
 				ECB00E192A8E7D3E00313D1D /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				ECB00E162A8E7D3D00313D1D /* ContentView.swift in Sources */,
 				ECB00E142A8E7D3D00313D1D /* PreviewSwiftUIApp.swift in Sources */,
+				ECB00E242A8E8E1600313D1D /* City.swift in Sources */,
+				ECB00E222A8E81EA00313D1D /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
